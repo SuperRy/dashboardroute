@@ -22,6 +22,8 @@ function App() {
       <AmplifySignOut buttonText="Leave the System"/>
       <header className="App-header">
         <h3>Testing upload</h3>
+        <h3>New Branch</h3>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
