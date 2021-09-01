@@ -1,0 +1,112 @@
+{
+    "paths": [
+        {
+            "name": "/data1",
+            "lambdaFunction": "data1Lambda",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH"
+                ]
+            },
+            "policyResourceName": "/data1"
+        },
+        {
+            "name": "/data2",
+            "lambdaFunction": "data2Lambda",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH"
+                ]
+            },
+            "policyResourceName": "/data2"
+        },
+        {
+            "name": "/getLam",
+            "lambdaFunction": "getlamFunc",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/getLam"
+        },
+        {
+            "name": "/data3",
+            "lambdaFunction": "data3lam",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/data3"
+        }
+    ],
+    "resourceName": "dashboardAPI",
+    "apiName": "dashboardAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "data1Lambda"
+        },
+        {
+            "lambdaFunction": "data2Lambda"
+        },
+        {
+            "lambdaFunction": "getlamFunc"
+        },
+        {
+            "lambdaFunction": "data3lam"
+        }
+    ],
+    "privacy": {
+        "auth": 3,
+        "unauth": 0,
+        "authRoleName": "amplify-dashboardroute-dev-152342-authRole",
+        "unAuthRoleName": "amplify-dashboardroute-dev-152342-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "data1Lambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "data2Lambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "getlamFunc",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "data3lam",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "a1bb5754"
+}

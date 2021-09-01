@@ -1,0 +1,58 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dashboardroute-dev-152342-authRole",
+      "UnauthRoleArn": "arn:aws:iam::794657637985:role/amplify-dashboardroute-dev-152342-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::794657637985:role/amplify-dashboardroute-dev-152342-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dashboardroute-dev-152342-deployment",
+      "UnauthRoleName": "amplify-dashboardroute-dev-152342-unauthRole",
+      "StackName": "amplify-dashboardroute-dev-152342",
+      "StackId": "arn:aws:cloudformation:us-east-2:794657637985:stack/amplify-dashboardroute-dev-152342/20edbd10-06a3-11ec-a75b-066d8c4ab9d2",
+      "AmplifyAppId": "dqtdzi8v31xpd"
+    },
+    "categories": {
+      "auth": {
+        "dashboardroutec90f48d0": {}
+      },
+      "storage": {
+        "GMargin": {
+          "tableName": "GMargin",
+          "region": "us-east-2",
+          "arn": "arn:aws:dynamodb:us-east-2:794657637985:table/GMargin",
+          "partitionKeyName": "Key",
+          "partitionKeyType": "S"
+        },
+        "Projectedshipment": {
+          "tableName": "Projected_shipment",
+          "region": "us-east-2",
+          "arn": "arn:aws:dynamodb:us-east-2:794657637985:table/Projected_shipment",
+          "partitionKeyName": "proj_key",
+          "partitionKeyType": "S"
+        }
+      },
+      "function": {
+        "data1Lambda": {
+          "deploymentBucketName": "amplify-dashboardroute-dev-152342-deployment",
+          "s3Key": "amplify-builds/data1Lambda-656275695559695a6f7a-build.zip"
+        },
+        "data2Lambda": {
+          "deploymentBucketName": "amplify-dashboardroute-dev-152342-deployment",
+          "s3Key": "amplify-builds/data2Lambda-6e70784c6b574f6b7035-build.zip"
+        },
+        "testinglam": {
+          "deploymentBucketName": "amplify-dashboardroute-dev-152342-deployment",
+          "s3Key": "amplify-builds/testinglam-4b6e636c51386c633230-build.zip"
+        },
+        "getlamFunc": {
+          "deploymentBucketName": "amplify-dashboardroute-dev-152342-deployment",
+          "s3Key": "amplify-builds/getlamFunc-4843474174336e734770-build.zip"
+        },
+        "data3lam": {
+          "deploymentBucketName": "amplify-dashboardroute-dev-152342-deployment",
+          "s3Key": "amplify-builds/data3lam-454469593963656a7273-build.zip"
+        }
+      }
+    }
+  }
+}

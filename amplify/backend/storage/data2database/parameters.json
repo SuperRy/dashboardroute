@@ -1,0 +1,5 @@
+{
+    "tableName": "data2database",
+    "partitionKeyName": "spot1",
+    "partitionKeyType": "S"
+}

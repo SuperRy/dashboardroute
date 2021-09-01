@@ -1,0 +1,5 @@
+{
+    "tableName": "data3db",
+    "partitionKeyName": "first",
+    "partitionKeyType": "S"
+}
